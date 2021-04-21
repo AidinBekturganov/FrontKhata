@@ -2,10 +2,10 @@ import React from 'react';
 
 
 
-function Hello() {
+function Hello(props) {
 
     return(
-        <h1> We are inwsdafasdf</h1>
+        <h1>m fsda ds {props.name} and {props.lastname}</h1> 
     )
 }
 

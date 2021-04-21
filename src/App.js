@@ -6,10 +6,9 @@ import MyClass from './components/MyClass';
 function App() {
   return (
     <div className="App">
-      <h1> Hello world</h1>
-      <Hello/>
-      <FunComponent/>
-      <MyClass/>
+      <Hello name = "Putin" lastname = "Debilov"/>
+      <MyClass email = "adfasdf@gmail.com"/>
+
     </div>
 
   );
