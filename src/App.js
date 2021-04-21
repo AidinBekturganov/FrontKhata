@@ -5,6 +5,7 @@ import MyClass from './components/MyClass';
 import Name from './components/Name';
 import Example from './components/Example';
 import Example2 from './components/Example2';
+import Form from './components/Form';
 
 function App() {
   function clicked(){
@@ -18,6 +19,7 @@ function App() {
           <Name/>
           <Example names = {['Python', 'Java', 'JavaScript', 'C#']}/>
           <Example2 names = {['React', 'AzaNative', 'Akhmadgular', 'dodic']}/>
+          <Form/>
 
     </div>
 
