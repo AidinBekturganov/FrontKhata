@@ -39,11 +39,11 @@ class Form extends Component {
                 <input type="password" value = {this.state.password} placeholder="Enter Your Password" className="form-control" onChange={this.passwordHandler}/>  
                 <button className="btn btn-primary"> Click</button>
 
-                {posts.map(post => 
+                {/* {posts.map(post => 
                     
                 <h2 key = {post.id}>{post.title}</h2>
                     
-                )}
+                )} */}
             </div>
         )
     }
