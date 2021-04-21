@@ -10,8 +10,9 @@ class MyClass extends Component{
         
         return(
             <div>
-            <h1>Nice cock {this.props.email}</h1>
-            <button className = "btn btn-success" onClick={this.ClickMe}> Click me </button>
+
+            <h1 className='bg-primary text-white text-center '>Nice cock {this.props.email}</h1>
+            <button className = "btn btn-primaryz" onClick={this.ClickMe}> Click me </button>
             </div>
         )
     }
