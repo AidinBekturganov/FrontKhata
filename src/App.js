@@ -10,7 +10,7 @@ function App() {
   }
   
   return (
-    <div className="App">
+    <div className="container">
       <Hello name = "Putin" />
       <MyClass email = "adfasdf@gmail.com" myclick={clicked}/>
 

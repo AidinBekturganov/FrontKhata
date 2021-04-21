@@ -11,7 +11,7 @@ function Hello(props) {
     return(
         <div>
         <h1>My email : {props.name} </h1> 
-        <button onClick={ClickMe}> fork me </button>
+        <button className = "btn btn-success" onClick={ClickMe}> fork me </button>
 
         </div>
       
