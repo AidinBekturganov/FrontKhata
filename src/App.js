@@ -4,10 +4,15 @@ import FunComponent from './components/FunComponent';
 import MyClass from './components/MyClass';
 
 function App() {
+  function clicked(){
+
+    alert('Class Componnent fucked')
+  }
+  
   return (
     <div className="App">
-      <Hello name = "Putin" lastname = "Debilov"/>
-      <MyClass email = "adfasdf@gmail.com"/>
+      <Hello name = "Putin" />
+      <MyClass email = "adfasdf@gmail.com" myclick={clicked}/>
 
     </div>
 

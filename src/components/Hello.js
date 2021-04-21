@@ -4,9 +4,18 @@ import React from 'react';
 
 function Hello(props) {
 
+    function ClickMe() {
+        alert("BUtton fucked");
+    }
+
     return(
-        <h1>m fsda ds {props.name} and {props.lastname}</h1> 
+        <div>
+        <h1>My email : {props.name} </h1> 
+        <button onClick={ClickMe}> fork me </button>
+
+        </div>
+      
     )
 }
 
-export default Hello
+export default Hello;
